@@ -7,9 +7,12 @@ from keras.preprocessing import image
 from matplotlib import pyplot as plt
 import numpy as np
 import os
+import keras
+
+print(keras.__version__)
 
 class ImageRecognitionApp(tk.Tk):
-    def __init__(self, model_path='saved_models\data_best_model'):
+    def __init__(self, model_path='saved_models\data_best_2'):
         super().__init__()
         self.title("Object recognition app")
         self.geometry("1200x800")
