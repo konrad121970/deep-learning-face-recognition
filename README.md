@@ -2,6 +2,9 @@
 
 This is a simple object recognition application built with Tkinter, Matplotlib, and Keras. The app allows users to select an image file and displays the image along with the predicted object category and a probability distribution chart.
 
+Image database with faces: https://www.kaggle.com/datasets/olgabelitskaya/yale-face-database.
+My face was additionally added to the dataset.
+
 ## Features
 
 - Select an image file using the "Select Image" button.
