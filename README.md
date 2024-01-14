@@ -12,6 +12,10 @@ My face was additionally added to the dataset.
 - The filename is displayed below the image.
 - Utilizes a pre-trained Keras model for object recognition.
 
+- Confusion matrix created based on test dataset:
+
+![Alt text](confusion_matrix.png?raw=true)
+
 ## Prerequisites
 
 - Python 3.x
